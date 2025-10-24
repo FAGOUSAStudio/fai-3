@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAGOUSA Studio | استوديو إبداعي متطور</title>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- تأثيرات الماوس -->
+  <div class="cursor-effect"></div>
+  <div class="cursor-outer"></div>
+
+  <!-- شاشة التحميل المتطورة -->
+  <div class="loader">
+    <div class="loader-container">
+      <div class="loader-ring"></div>
+      <div class="loader-ring"></div>
+      <div class="loader-ring"></div>
+      <svg class="loader-logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <path fill="none" stroke="url(#gradient)" stroke-width="8" stroke-linecap="round" stroke-dasharray="100 100" stroke-dashoffset="100" d="M 20,50 A 30,30 0 1 1 80,50 A 30,30 0 1 1 20,50" transform="rotate(-90 50 50)">
+          <animate attributeName="stroke-dashoffset" values="100;0" dur="2s" fill="freeze" />
+        </path>
+        <text x="50" y="55" text-anchor="middle" font-size="40" font-weight="bold" fill="url(#gradient)">F</text>
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#6e45e2" />
+            <stop offset="100%" stop-color="#88d3ce" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+    <div class="loader-progress-container">
+      <div class="loader-progress"></div>
+    </div>
+  </div>
+
+  <!-- تأثيرات الخلفية المتطورة -->
+  <div class="bg-effects">
+    <div class="gradient-circle circle-1"></div>
+    <div class="gradient-circle circle-2"></div>
+    <div class="gradient-circle circle-3"></div>
+    <div class="grid-bg"></div>
+    <div class="particles" id="particles"></div>
+  </div>
+
+  <!-- المحتوى الرئيسي -->
+  <div class="container">
+    <div class="logo">
+      <div class="logo-inner">F</div>
+    </div>
+    
+    <h1>FAGOUSA Studio</h1>
+    
+    <p class="tagline">مرحبًا بك في <span class="highlight">استوديو فاقوسة</span>، حيث نبتكر حلولًا رقمية مذهلة تجمع بين الجمال والأداء المتميز لتحقيق تجربة مستخدم لا تُنسى.</p>
+    
+    <div class="buttons">
+      <a href="https://faaiii-1752666105477.staticrun.app/" class="btn btn-primary" target="_blank">
+        <i class="fas fa-globe"></i> دخول إلى الموقع
+      </a>
+      <a href="/assets/downloads/fai" class="btn btn-secondary" download="fagousa-app.7z">
+        <i class="fas fa-download"></i> تحميل التطبيق
+      </a>
+    </div>
+    
+    <div class="grid">
+      <div class="card">
+        <i class="fas fa-rocket"></i>
+        <h3>أداء متميز</h3>
+        <p>تطبيقاتنا مصممة بتقنيات متطورة لتقديم أسرع تجربة مستخدم مع استهلاك أقل للموارد</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-paint-brush"></i>
+        <h3>تصميم عصري</h3>
+        <p>واجهات مستخدم جذابة وسهلة الاستخدام تلبي أحدث معايير التصميم وتجربة المستخدم</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-headset"></i>
+        <h3>دعم فني</h3>
+        <p>فريق دعم فني متاح على مدار الساعة لمساعدتك في حل أي مشكلة تواجهها</p>
+      </div>
+    </div>
+    
+    <footer>
+      جميع الحقوق محفوظة &copy; <span id="year"></span> FAGOUSA Studio | إبداع بلا حدود
+    </footer>
+  </div>
+
+  <!-- زر التواصل المتطور -->
+  <a href="https://www.facebook.com/ramadhan.8068" class="social-btn" target="_blank" title="تواصل معنا على فيسبوك">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
